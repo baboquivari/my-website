@@ -1,0 +1,330 @@
+/*
+* {
+
+	border-style: solid;
+	border-width: 1px;
+}
+*/
+
+.container {
+  text-decoration: none;
+}
+
+
+.title {
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  font-family: 'Rock Salt', cursive;
+  
+  
+}
+
+
+.container {
+  font-family: 'Rock Salt', cursive;
+  text-decoration: none;
+}
+
+
+
+.three {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 350px;
+  text-align: center;
+}
+
+.four {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 500px;
+  text-align: center;
+}
+
+.five {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 650px;
+  text-align: center;
+}
+
+.six {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 800px;
+  text-align: center;
+}
+
+.seven {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 980px;
+  width: 100%;
+  text-align: center;
+}
+
+.eight {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+.nine {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 1230px;
+  text-align: center;
+}
+
+.ten {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 1385px;
+  width: 100%;
+  text-align: center;
+}
+
+.eleven {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 1510px;
+  text-align: center;
+}
+
+.twelve {
+   font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding: 15px;
+  top: 1670px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+header {
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+header p:first-child {
+  font-weight: bold;
+  padding: 0 10px;
+  margin: 0;
+  background-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+header p:nth-child(2) {
+  font-weight: bold;
+  padding: 10px 10px;
+  margin: 0;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+header p:last-child {
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: #C00127;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("https://initiate.alphacoders.com/images/708/cropped-1280-800-708188.jpg?2997");
+  background-size: cover;
+  color: #ffffff;
+  height: 750px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  position: relative;
+    width: 600px;
+    height: 200px;
+     left: 100px;
+     bottom: 50px;
+  color: #C00127;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+  margin-right: 200px;
+  margin-top: 50px;
+  padding-top: 120px;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+
+}
+
+.jumbotron h4 {
+  
+  color: #C00127;
+   position: relative;
+    width: 400px;
+    height: 200px;
+  bottom: 30px;
+  font-size: 30px;
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 50px;
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+  max-height: 100%;
+    max-width: 100%;
+}
+
+#question {
+	text-align: center;
+}
+
+
+#burger {
+	color: red;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+  max-height: 100%;
+    max-width: 100%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.bot {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .col-sm-4 {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+h3 {
+	text-align: center;
+	padding-left: 500px;
+	color: blue;
+}
+
+.bottom {
+    background-color: red;
+position: absolute;
+left: 100px;
+}
+
+.bot {
+  font-family: 'Rock Salt', cursive;
+  text-decoration: none;
+}
