@@ -4,14 +4,55 @@
 	border-style: solid;
 	border-width: 1px;
 }
-'https://images6.alphacoders.com/708/708188.jpg'  HIGH RES TRUMP JUMBO
 */
 
+.col-sm-6 img {
+  opacity: 0.017;
+}
+
+img:hover {
+  opacity: 0.048;
+}
 
 
-body {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+.row {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+.container {
+  font-family: 'Rock Salt', cursive;
+}
+
+.move {
+  font-family: 'Rock Salt', cursive;
+  background-color: #C00127;
+  color: black;
+  position: absolute;
+  padding: 15px;
+  top: 764px;
+  
+  text-align: center;
+
+
+
+}
+
+h3 {
+  color: red;
+  position: relative;
+}
+
+
+
+#voice {
+  background-color: red;
+}
+
+.welcome {
+text-align: center; 
+margin: 100px;
 }
 
 header {
@@ -35,10 +76,39 @@ header nav {
   justify-content: flex-end;
 }
 
-header p {
-  padding: 0 20px;
+header p:first-child {
+  font-weight: bold;
+  padding: 0 10px;
   margin: 0;
+  background-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 20px;
 }
+
+header p:nth-child(2) {
+  font-weight: bold;
+  padding: 10px 10px;
+  margin: 0;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+header p:last-child {
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: #C00127;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+
+}
+
 
 .jumbotron {
   display: flex;
@@ -46,7 +116,7 @@ header p {
   background-image: url("https://initiate.alphacoders.com/images/708/cropped-1280-800-708188.jpg?2997");
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 750px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -54,6 +124,8 @@ header p {
   position: relative;
     width: 600px;
     height: 200px;
+     left: 100px;
+     bottom: 50px;
   color: #C00127;
   font-size: 40px;
   font-style: italic;
@@ -67,6 +139,7 @@ header p {
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
+
 }
 
 .jumbotron h4 {
@@ -75,7 +148,7 @@ header p {
    position: relative;
     width: 400px;
     height: 200px;
-  
+  bottom: 30px;
   font-size: 30px;
   float: right;
   margin-right: 200px;
@@ -92,9 +165,7 @@ section .row img {
 	text-align: center;
 }
 
-#poo {
-	color: red;
-}
+
 
 #burger {
 	color: red;
@@ -154,3 +225,10 @@ h3 {
 	padding-left: 500px;
 	color: blue;
 }
+
+.bottom {
+    background-color: red;
+position: absolute;
+left: 100px;
+}
+
